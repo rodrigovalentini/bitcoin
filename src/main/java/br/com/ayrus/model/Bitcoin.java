@@ -1,10 +1,11 @@
 package br.com.ayrus.model;
+
 import java.time.LocalDate;
 
 public class Bitcoin {
 	private Long id;
 
-	private Double preço;
+	private Double preco;
 
 	private String tipo;
 
@@ -18,14 +19,13 @@ public class Bitcoin {
 		this.id = id;
 	}
 
-	public Double getPreço() {
-		return preço;
+	public Double getPreco() {
+		return preco;
 	}
 
-	public void setPreço(Double preço) {
-		this.preço = preço;
+	public void setPreco(Double preco) {
+		this.preco = preco;
 	}
-
 	public String getTipo() {
 		return tipo;
 	}
@@ -41,4 +41,5 @@ public class Bitcoin {
 	public void setData(LocalDate data) {
 		this.data = data;
 	}
+
 }

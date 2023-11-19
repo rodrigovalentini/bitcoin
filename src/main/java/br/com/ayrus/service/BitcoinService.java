@@ -10,7 +10,7 @@ import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 
 @Path("/bitcoins")
-@RegisterRestClient
+@RegisterRestClient(configKey = "bitcoin-api")
 public interface BitcoinService {
 
 	@GET
